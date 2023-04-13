@@ -138,7 +138,8 @@ public class MovieManagerTest {
 
     @Test
     public void test9() {
-        MovieManager manager = new MovieManager(5);
+
+        MovieManager manager = new MovieManager();
 
         manager.add("Film I");
         manager.add("Film II");
